@@ -2,5 +2,5 @@
 
 Gif themed project exploring comments using nested resources. 
 
-http://samuelrsolomon.com/
+http://samuelrsolomon.com
 
