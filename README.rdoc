@@ -1,6 +1,6 @@
 == GifHub
 
-Gif themed project exploring how to add comments using nested resources. 
+Gif themed project exploring comments using nested resources. 
 
 http://samuelrsolomon.com/
 
