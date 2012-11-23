@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<%= image_tag @gif.url, :width => 600 %>
+
+<br> 
+
+<%= link_to "Add Comment", new_gif_comment_path(@gif) %>
+<p>
+	<b>Comments:</b>
+	<% @gif.comments.each do |comment| %>
+		<li><%= comment.note %></li>
+	<% end %>
+</p>
+
+<%= link_to 'Edit', edit_gif_path(@gif) %> |
+<%= link_to 'Back', gifs_path %>
